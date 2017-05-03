@@ -1,4 +1,4 @@
-secscan
+sec_scan
 ===============
 
 
@@ -29,7 +29,7 @@ Install
 -------
 
 >```
->npm install -g secscan
+>npm install -g sec_scan
 >```
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "secscan",
+  "name": "sec_scan",
   "version": "1.0.0",
   "description": "Ports Scanner for NodeJS",
   "main": "main.js",
