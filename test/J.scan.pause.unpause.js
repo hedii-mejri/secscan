@@ -7,7 +7,7 @@ var secscan = require('../main.js');
 var path = require('path');
 
 var cleanCmdLineArgs = function(str) {
-    str = str.replace(/.\/bin\/sec_scan.js /,' ').trim();
+    str = str.replace(/.\/bin\/secscan.js /,' ').trim();
     str = str.replace(/\-\-/g,'');
     return '['+str+']';
 }
@@ -28,7 +28,7 @@ suite(path.basename(__filename), function() {
 
     var arr = [{
         title:'should be pausable/unpausable',
-        args:'./bin/sec_scan.js 127.0.0.1/24 --port=0-25 --json --progress --concurrency=10',
+        args:'./bin/secscan.js 127.0.0.1/24 --port=0-25 --json --progress --concurrency=10',
     }]
 
     // simulate command line

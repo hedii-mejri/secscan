@@ -7,7 +7,7 @@
     "test": "make test"
   },
   "bin": {
-    "secscan": "./bin/sec_scan.js"
+    "secscan": "./bin/secscan.js"
   },
   "repository": {
     "type": "git",

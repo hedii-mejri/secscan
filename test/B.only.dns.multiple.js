@@ -7,7 +7,7 @@ var path = require('path');
 
 
 var cleanCmdLineArgs = function(str) {
-    str = str.replace(/.\/bin\/sec_scan.js /,' ').trim();
+    str = str.replace(/.\/bin\/secscan.js /,' ').trim();
     str = str.replace(/\-\-/g,'');
     return '['+str+']';
 }
@@ -27,7 +27,7 @@ suite(path.basename(__filename), function() {
 
     var arr = [{
         title:'should return many dns results',
-        args:'./bin/sec_scan.js 216.58.208.227/29 --json --reverse'
+        args:'./bin/secscan.js 216.58.208.227/29 --json --reverse'
     }]
 
     /* simulate command line */

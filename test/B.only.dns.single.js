@@ -6,7 +6,7 @@ var secscan = require('../main.js');
 var path = require('path');
 
 var cleanCmdLineArgs = function(str) {
-    str = str.replace(/.\/bin\/sec_scan.js /,' ').trim();
+    str = str.replace(/.\/bin\/secscan.js /,' ').trim();
     str = str.replace(/\-\-/g,'');
     return '['+str+']';
 }
@@ -28,7 +28,7 @@ suite(path.basename(__filename), function() {
 
     var arr = [{
         title:'should return a real result',
-        args:'./bin/sec_scan.js 198.252.206.140 --reverse --json',
+        args:'./bin/secscan.js 198.252.206.140 --reverse --json',
         data:{
             ip:'198.252.206.140',
             reverse:"stackoverflow.com"
