@@ -2,7 +2,7 @@
   "name": "secscan",
   "version": "1.0.0",
   "description": "Ports Scanner for NodeJS",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "make test"
   },
@@ -19,9 +19,9 @@
     "scanner",
     "nodejs"
   ],
-  "author": "hedi_mejri",
+  "author": "hedimejri <hedi.mejri.dev@gmail.com> (http://www.hedi-mejri.me)",
   "license": "GPL-3.0",
-  "readmeFilename": "README.md",
+  "readmeFilename": "readme.md",
   "dependencies": {
     "async": "1.0.0",
     "findup-sync": "0.2.1",
