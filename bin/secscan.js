@@ -1,4 +1,4 @@
-#!/usr/bin node
+#!/usr/bin/env node
 var secscan = require('../main');
 var options = require('../libs/options');
 var output = require('../libs/formater');
