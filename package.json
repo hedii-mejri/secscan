@@ -1,13 +1,13 @@
 {
   "name": "sec_scan",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Ports Scanner for NodeJS",
   "main": "main.js",
   "scripts": {
     "test": "make test"
   },
   "bin": {
-    "evilscan": "./bin/sec_scan.js"
+    "secscan": "./bin/sec_scan.js"
   },
   "repository": {
     "type": "git",
